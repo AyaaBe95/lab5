@@ -26,7 +26,7 @@
 // app.listen(PORT,() => console.log(`Listening on port ${PORT}`));
 
 'use strict';
-// require('dotenv').config();
+require('dotenv').config();
 
 const { response } = require('express');
 const express = require('express')
