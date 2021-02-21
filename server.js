@@ -26,13 +26,13 @@
 // app.listen(PORT,() => console.log(`Listening on port ${PORT}`));
 
 'use strict';
-require('dotenv').config();
+ require('dotenv').config();
 
 const { response } = require('express');
 const express = require('express')
 const server = express()
 
-const PORT = 3000; // connect  server with web
+const PORT = process.env.PORT || 3000;
 
 server.use(express.static('./public'));
 
