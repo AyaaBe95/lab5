@@ -1,7 +1,7 @@
 {
   "name": "lab5",
   "version": "1.0.0",
-  "description": "",
+  "description": "Number and name of feature: 1",
   "main": "server.js",
   "scripts": {
     "test": "echo \"Error: no test specified\" && exit 1",
@@ -19,6 +19,8 @@
   },
   "homepage": "https://github.com/AyaaBe95/lab5#readme",
   "dependencies": {
+    "env": "0.0.2",
     "express": "^4.17.1"
-  }
+  },
+  "devDependencies": {}
 }
